@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignIn">
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_margin="15dp"
+            android:id="@+id/textlarg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="User Login" />
+
+
+        <EditText
+            android:layout_margin="15dp"
+            android:id="@+id/editTextemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:hint="Enter Your Email" />
+
+        <EditText
+            android:layout_margin="15dp"
+
+            android:id="@+id/editTextpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="Enter Your Password"/>
+
+        <Button
+            android:layout_margin="15dp"
+            android:id="@+id/buttonSignin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Signin" />
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_margin="15dp"
+            android:id="@+id/textsignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Not Have an Account?  SignUp Here " />
+    </LinearLayout>
+</RelativeLayout>

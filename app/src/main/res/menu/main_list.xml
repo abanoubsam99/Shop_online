@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single" >
+
+        <item
+            android:id="@+id/t13"
+            android:title="الصفحة الرئيسية "
+            android:icon="@drawable/icon1"
+            />
+
+        <item
+            android:id="@+id/t1"
+            android:title="تابلوهات  "
+            android:icon="@drawable/icon1"
+            />
+        <item
+            android:id="@+id/t2"
+            android:title="ساعات الحائط"
+            android:icon="@drawable/icon1"
+            />
+
+        <item
+            android:id="@+id/t3"
+            android:title="ساقية الذكريات "
+            android:icon="@drawable/icon1"
+            />
+
+        <item
+            android:id="@+id/t4"
+            android:title="مداليات / بازل "
+            android:icon="@drawable/icon1"
+            />
+
+        <item
+            android:id="@+id/t5"
+            android:title="مجات / نوت بوك "
+            android:icon="@drawable/icon1"
+            />
+        <item
+            android:id="@+id/t6"
+            android:title="فانوس / كفر موبايل "
+            android:icon="@drawable/icon1"
+            />
+
+        <item
+            android:id="@+id/t7"
+            android:title="بوكس هدايا / تي شيرت  "
+            android:icon="@drawable/icon1"
+            />
+        <item
+            android:id="@+id/t8"
+            android:title="عروض "
+            android:icon="@drawable/icon1"
+            />
+
+        <item
+            android:id="@+id/t9"
+            android:title="  معلومات عن شركتنا / الاتصال  "
+            android:icon="@drawable/icon1"
+            />
+
+        <item
+            android:id="@+id/t11"
+            android:title="الميزات"
+            android:icon="@drawable/icon1"
+            />
+
+
+    </group>
+
+
+</menu>

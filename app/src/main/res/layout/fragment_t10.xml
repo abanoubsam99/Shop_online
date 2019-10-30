@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".T10"
+    android:background="@drawable/img1"
+    android:gravity="top|center"
+
+    android:padding="30dp"
+    >
+
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="المميزات \n  ــــــــــــــــ \n \n  ارخص سعر في مصر  \n \n  سرعة في تنفيذ طلبك \n   \n اجود الخامات    "
+        android:textSize="30dp"
+        android:textColor="@color/Black"
+        android:gravity="center"
+
+        />
+
+</LinearLayout>

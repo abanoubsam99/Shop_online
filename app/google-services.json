@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "871619958067",
+    "firebase_url": "https://the-best-56cab.firebaseio.com",
+    "project_id": "the-best-56cab",
+    "storage_bucket": "the-best-56cab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871619958067:android:178b6e14520a2dc7",
+        "android_client_info": {
+          "package_name": "com.example.thebest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871619958067-6b2i96nh7p48iek865snq7j9spfj93n0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.thebest",
+            "certificate_hash": "fc5fcb4b9cba83d9770f30ee82558157aefd0731"
+          }
+        },
+        {
+          "client_id": "871619958067-2u3hpg68sboruls8vofdgknbr5cqqm41.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9LvTWq1tveKoqhLuZeOFkzwkDo4QEK4Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871619958067-2u3hpg68sboruls8vofdgknbr5cqqm41.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

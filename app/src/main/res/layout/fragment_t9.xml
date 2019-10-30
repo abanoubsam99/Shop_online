@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".T9"
+    android:layout_margin="7dp"
+    android:background="@drawable/img1"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="من نحن:- \n  ــــــــــــــــ "
+            android:textSize="25dp"
+            android:textColor="@color/Black"
+            android:gravity="start"
+            />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="احنا متجر هدايا لجميع انواع الهدايا \n ساعات \n  تابلوهات \n مجات \n  بازل \n  جميع انواع الهدايا "
+            android:textColor="@color/Black"
+            android:gravity="center"
+
+            />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ــــــــــــــــــــــــــــــــــــــ"
+            android:textSize="25dp"
+            android:textColor="@color/Black"
+            android:gravity="center"/>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:scaleType="centerInside"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/logo2" />
+
+
+        <LinearLayout
+            android:id="@+id/layface"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:clickable="true"
+            >
+
+
+            <ImageView
+                android:id="@+id/fa"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/face" />
+
+            <TextView
+                android:id="@+id/fac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="اضغط ليتم فتج صفحتنا علي الفيس بوك  "
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textColor="@color/Black"
+                android:layout_marginTop="10dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layweb"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+
+            >
+
+
+            <ImageView
+                android:id="@+id/wa"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/sit" />
+
+            <TextView
+                android:id="@+id/wat"
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="https://thebestshop1.site123.me"
+
+                android:textSize="15dp"
+                android:textColor="@color/Blue"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/laycall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+
+            >
+
+
+            <ImageView
+                android:id="@+id/phon"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/call" />
+
+            <TextView
+                android:id="@+id/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="اضغط للتواصل معنا هاتفيا "
+                android:textSize="15dp"
+                android:textColor="@color/Black"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="مواعيد العمل من 9ص الي 4م "
+            android:textColor="@color/Black"
+            android:gravity="center"
+            android:textSize="20dp"
+            />
+    </LinearLayout>
+
+
+</ScrollView>
